@@ -16,9 +16,20 @@ You also need to make each pacman bounce off any wall it hits.
 
 ## How To Run The Application
 
-The application is made up of 
+### About
+This application is made up of 2 main files and an image directory
+  - the index.html file which creates the divs for the game which includes 2 buttons,  Add PacMan and Start Game.  This file also the pacmen javascript file as SRC.
+  - the pacmen.js file which includes the javascript functions including the 2 major ones,  MakePac() which is the Factory to make a PacMan at a random position with random velocity and update() which loops over the pacmen array to update the position and then moves the image in the DOM
+  - the images directory contains Pacmen images,  2 with mouth open and 2 with mouth closed positioned to the left and to the right.
+
+### Running the Application
+ (1) You can download the 2 files and 1 images directory to your local drive.  Once installed in a directory, run the index.html file from a new web page OR you can run the application direct from github from the link, https://pamelaarcher.github.io/addpacmen/
+ (2) Click on the Add PacMan button once for each pacman you want to add into the box on the page.  You can add as many as you want.
+ (3) Click on the Start Game button.  This will start moving the Pacmen around the box based on a random velocity and position.  The update() function is repeatedly called which moves each Pacman by adding the random position to its location.   If it hits the edge of any side,  the pacmen will turn and move the opposite direction.
 
 ## Roadmap of Future Improvements
+ (1) Change the image based on the direction it is moving
+ (2) Change the image from open to close mouth as it moves across the page 
 
 ## License
 
@@ -34,4 +45,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Demo
 
-* [Demo](https://pamelaarcher.github.io/addpacmen)
+* [Pacman Factory Demo](https://pamelaarcher.github.io/addpacmen)
