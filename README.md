@@ -12,7 +12,7 @@
 This web application is an HTML/Javascript factory that creates a new Pacman when the Add PacMan button is pressed and adds it to a "game" div. It is then added to the array of Pacmen, which keeps track of the position and velocity of each one.  A Start Game button starts the reading of the Pacmen array of information.  Each Pacman is moved according to its random velocity and new position.   There is logic to ensure each Pacman does not go outside of the DOM box container.
 You also need to make each pacman bounce off any wall it hits.
 
-<img src="./images/PacMan1.png">
+<img src="./images/PacManDemo.png">
 
 ## How To Run The Application
 
