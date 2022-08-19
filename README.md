@@ -28,8 +28,8 @@ This application is made up of 2 main files and an image directory
  (3) Click on the Start Game button.  This will start moving the Pacmen around the box based on a random velocity and position.  The update() function is repeatedly called which moves each Pacman by adding the random position to its location.   If it hits the edge of any side,  the pacmen will turn and move the opposite direction.
 
 ## Roadmap of Future Improvements
- (1) Change the image based on the direction it is moving
- (2) Change the image from open to close mouth as it moves across the page 
+ (1) Change the image based on the direction it is moving <br />
+ (2) Change the image from open to close mouth as it moves across the page <br />
 
 ## License
 
